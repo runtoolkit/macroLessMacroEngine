@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "respawn": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "minecraft:overworld"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mlme:core/event/on_respawn"
+    }
+}

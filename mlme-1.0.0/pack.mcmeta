@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 57,
+    "min_format": 18,
+    "max_format": 101,
+    "supported_formats": {
+      "min_inclusive": 18,
+      "max_inclusive": 101
+    },
+    "description": "§bMLME §7- macroLessMacroEngine v1.0.0"
+  }
+}

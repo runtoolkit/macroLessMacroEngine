@@ -1,0 +1,12 @@
+{
+    "values": [
+        "mlme:core/schedule/tick",
+        "mlme:core/cooldown/tick",
+        "mlme:core/event/tick",
+        "mlme:core/fiber/pending_tick",
+        "mlme:core/fiber/tick",
+        "mlme:core/ratelimit/tick",
+        "mlme:core/cooldown/tick_global",
+        "mlme:core/event/tick_level"
+    ]
+}
