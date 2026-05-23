@@ -4,6 +4,6 @@
 # Cancel all pending scheduled commands.
 #
 # Usage:
-#   function mlme:api/schedule/clear
+# function mlme:api/schedule/clear
 
 data remove storage mlme:schedule jobs

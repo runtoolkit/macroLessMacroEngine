@@ -5,12 +5,12 @@
 # Output: mlme:output state.value (string) -- empty string if not found
 #
 # Input:
-#   mlme:input state.key -- string, state key to look up
+# mlme:input state.key -- string, state key to look up
 #
 # Usage:
-#   data modify storage mlme:input state.key set value "boss_active"
-#   function mlme:api/state/get
-#   data get storage mlme:output state.value
+# data modify storage mlme:input state.key set value "boss_active"
+# function mlme:api/state/get
+# data get storage mlme:output state.value
 
 data remove storage mlme:output state.value
 execute store result score #st.size mlme.tick run data get storage mlme:engine state

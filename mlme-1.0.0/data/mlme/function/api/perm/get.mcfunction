@@ -5,7 +5,7 @@
 # Output: mlme:output perm.level (int)
 #
 # Usage:
-#   execute as <player> run function mlme:api/perm/get
-#   data get storage mlme:output perm.level
+# execute as <player> run function mlme:api/perm/get
+# data get storage mlme:output perm.level
 
 execute store result storage mlme:output perm.level int 1 run scoreboard players get @s mlme.perm

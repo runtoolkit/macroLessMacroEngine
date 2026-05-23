@@ -6,11 +6,11 @@
 # Output: mlme:output gcd.ready (1b/0b)
 #
 # Macro-free pattern:
-#   execute if score #gcd.world_boss mlme.cd matches 0 run ...
+# execute if score #gcd.world_boss mlme.cd matches 0 run ...
 #
 # This function checks #gcd.global:
-#   function mlme:api/cooldown/check_global
-#   execute if data storage mlme:output {gcd:{ready:1b}} run ...
+# function mlme:api/cooldown/check_global
+# execute if data storage mlme:output {gcd:{ready:1b}} run ...
 
 data modify storage mlme:output gcd.ready set value 0b
 execute if score #gcd.global mlme.cd matches ..0 run data modify storage mlme:output gcd.ready set value 1b

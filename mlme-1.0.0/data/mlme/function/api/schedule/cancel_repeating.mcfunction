@@ -8,8 +8,8 @@
 # This clears ALL repeating schedules (nuclear option).
 # For per-ID cancel, maintain active flags in your own pack.
 #
-#   data modify storage mlme:input repeat.id set value "mypack_heartbeat"
-#   function mlme:api/schedule/cancel_repeating
+# data modify storage mlme:input repeat.id set value "mypack_heartbeat"
+# function mlme:api/schedule/cancel_repeating
 
 data remove storage mlme:engine repeating
 data remove storage mlme:input repeat

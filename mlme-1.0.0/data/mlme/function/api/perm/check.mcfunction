@@ -6,14 +6,14 @@
 # Also writes mlme:output perm.ok (1b/0b).
 #
 # Input:
-#   mlme:input perm.required -- int, minimum required level
+# mlme:input perm.required -- int, minimum required level
 #
 # Usage:
-#   data modify storage mlme:input perm.required set value 2
-#   execute as <player> if function mlme:api/perm/check run function mypack:mod_action
+# data modify storage mlme:input perm.required set value 2
+# execute as <player> if function mlme:api/perm/check run function mypack:mod_action
 #
 # Inline pattern (faster):
-#   execute as <player> if score @s mlme.perm matches 2.. run function mypack:mod_action
+# execute as <player> if score @s mlme.perm matches 2.. run function mypack:mod_action
 
 data modify storage mlme:output perm.ok set value 0b
 execute store result score #pm.req mlme.tick run data get storage mlme:input perm.required

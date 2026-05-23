@@ -5,7 +5,7 @@
 # Does NOT affect the queue -- use mlme:api/queue/clear for that.
 #
 # Usage:
-#   function mlme:api/util/cancel
+# function mlme:api/util/cancel
 
 schedule clear mlme:core/run/reset
 

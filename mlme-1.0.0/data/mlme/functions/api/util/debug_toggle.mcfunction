@@ -4,7 +4,7 @@
 # Toggle MLME debug output on/off.
 #
 # Usage:
-#   function mlme:api/util/debug_toggle
+# function mlme:api/util/debug_toggle
 
 data modify storage mlme:temp debug set from storage mlme:config debug
 execute if data storage mlme:temp {debug:1b} run data modify storage mlme:config debug set value 0b

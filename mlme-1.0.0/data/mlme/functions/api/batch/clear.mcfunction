@@ -4,6 +4,6 @@
 # Clear all pending commands from the batch staging area without queuing them.
 #
 # Usage:
-#   function mlme:api/batch/clear
+# function mlme:api/batch/clear
 
 data remove storage mlme:batch commands

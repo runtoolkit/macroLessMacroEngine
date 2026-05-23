@@ -4,7 +4,7 @@
 # Display MLME version info to @s.
 #
 # Usage:
-#   function mlme:api/util/version
+# function mlme:api/util/version
 
 tellraw @s ["",{"text":"[MLME] ","color":"aqua"},{"text":"macroLessMacroEngine","color":"white"},{"text":" v1.0.0","color":"gold"}]
 tellraw @s ["",{"text":"  Pack format: 18-101 (1.19.3 - 1.21.5+)","color":"gray"}]

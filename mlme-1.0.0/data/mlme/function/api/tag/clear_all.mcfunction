@@ -5,7 +5,7 @@
 # Call after any mlme tag operation to clean up.
 #
 # Usage:
-#   function mlme:api/tag/clear_all
+# function mlme:api/tag/clear_all
 
 tag @e remove mlme.target
 tag @e remove mlme.tagged

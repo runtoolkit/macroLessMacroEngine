@@ -4,6 +4,6 @@
 # Remove ALL registered event hooks.
 #
 # Usage:
-#   function mlme:api/event/unregister_all
+# function mlme:api/event/unregister_all
 
 data remove storage mlme:engine events

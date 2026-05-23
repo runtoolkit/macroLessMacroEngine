@@ -9,16 +9,16 @@
 # If you need per-ID kill, maintain separate fiber state per-ID in your pack
 # using scoreboard flags: scoreboard players set #fiber.<id> mlme.flag 0
 # and guard your step functions with:
-#   execute if score #fiber.<id> mlme.flag matches 0 run return 0
+# execute if score #fiber.<id> mlme.flag matches 0 run return 0
 #
 # Usage (recommended ID-guarded pattern in your step functions):
-#   # In your fiber step:
-#   execute if score #fiber.boss_intro mlme.flag matches 0 run return 0
-#   # ... step logic ...
+# # In your fiber step:
+# execute if score #fiber.boss_intro mlme.flag matches 0 run return 0
+# # ... step logic ...
 #
 # This function clears the global fiber queues (nuclear option):
-#   data modify storage mlme:input fiber.id set value "boss_intro"
-#   function mlme:api/fiber/kill
+# data modify storage mlme:input fiber.id set value "boss_intro"
+# function mlme:api/fiber/kill
 
 data remove storage mlme:engine fiber_pending
 data remove storage mlme:engine fiber_queue

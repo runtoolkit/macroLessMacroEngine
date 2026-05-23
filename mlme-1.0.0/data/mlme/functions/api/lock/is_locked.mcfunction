@@ -6,7 +6,7 @@
 # Output: mlme:output lock.any_held (1b/0b)
 #
 # For specific lock by name use scoreboard directly:
-#   execute if score #lock.<name> mlme.lock matches 1 run ...
+# execute if score #lock.<name> mlme.lock matches 1 run ...
 
 data modify storage mlme:output lock.any_held set value 0b
 execute unless data storage mlme:engine locks[0] run return 0

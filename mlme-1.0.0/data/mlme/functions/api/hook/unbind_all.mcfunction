@@ -4,6 +4,6 @@
 # Remove ALL registered hooks.
 #
 # Usage:
-#   function mlme:api/hook/unbind_all
+# function mlme:api/hook/unbind_all
 
 function mlme:api/event/unregister_all

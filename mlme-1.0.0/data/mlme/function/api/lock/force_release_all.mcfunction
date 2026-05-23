@@ -4,6 +4,6 @@
 # Force-release ALL locks (emergency reset).
 #
 # Usage:
-#   function mlme:api/lock/force_release_all
+# function mlme:api/lock/force_release_all
 
 data remove storage mlme:engine locks

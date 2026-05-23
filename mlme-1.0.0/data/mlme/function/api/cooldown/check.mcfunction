@@ -9,7 +9,7 @@
 # For 1.19.x, read mlme:output Cooldown.ready after calling.
 #
 # Usage:
-#   execute as <player> if function mlme:api/cooldown/check run ...
+# execute as <player> if function mlme:api/cooldown/check run ...
 
 data modify storage mlme:output Cooldown.ready set value 0b
 execute if score @s mlme.cd matches 0 run data modify storage mlme:output Cooldown.ready set value 1b

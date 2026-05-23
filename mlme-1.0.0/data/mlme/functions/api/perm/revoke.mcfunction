@@ -4,6 +4,6 @@
 # Revoke permissions from executor (@s) -- sets level to 0.
 #
 # Usage:
-#   execute as <player> run function mlme:api/perm/revoke
+# execute as <player> run function mlme:api/perm/revoke
 
 scoreboard players set @s mlme.perm 0

@@ -5,13 +5,13 @@
 # Without macros, states are stored in a searchable list.
 #
 # Input:
-#   mlme:input state.key   -- string, state key name
-#   mlme:input state.value -- string, state value
+# mlme:input state.key -- string, state key name
+# mlme:input state.value -- string, state value
 #
 # Usage:
-#   data modify storage mlme:input state.key   set value "boss_active"
-#   data modify storage mlme:input state.value set value "1"
-#   function mlme:api/state/set
+# data modify storage mlme:input state.key set value "boss_active"
+# data modify storage mlme:input state.value set value "1"
+# function mlme:api/state/set
 
 # Remove old entry with this key first, then append new one
 function mlme:core/state/remove_key

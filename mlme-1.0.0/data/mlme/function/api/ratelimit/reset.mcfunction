@@ -3,7 +3,7 @@
 #
 # Immediately refill all tokens for a bucket (bypass rate limit).
 # For direct scoreboard usage:
-#   scoreboard players set #rl.<name>.tokens mlme.rl <max>
+# scoreboard players set #rl.<name>.tokens mlme.rl <max>
 #
 # Storage-based buckets: sets tokens = max_tokens for the matching bucket.
 # Input: mlme:input rl.bucket -- string

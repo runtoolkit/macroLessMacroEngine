@@ -4,7 +4,7 @@
 # Display runtime stats to @s.
 #
 # Usage:
-#   function mlme:api/util/stats
+# function mlme:api/util/stats
 
 execute store result score #st.q mlme.tick run data get storage mlme:queue commands
 execute store result score #st.s mlme.tick run data get storage mlme:schedule jobs

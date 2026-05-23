@@ -4,7 +4,7 @@
 # Display all pending scheduled jobs to @s (debug use).
 #
 # Usage:
-#   function mlme:api/schedule/list
+# function mlme:api/schedule/list
 
 execute store result score #sc.count mlme.tick run data get storage mlme:schedule jobs
 tellraw @s ["",{"text":"[MLME] Scheduled jobs: ","color":"aqua"},{"score":{"name":"#sc.count","objective":"mlme.tick"},"color":"yellow"}]

@@ -5,7 +5,7 @@
 # Output: mlme:output schedule.count (int)
 #
 # Usage:
-#   function mlme:api/schedule/count
-#   data get storage mlme:output schedule.count
+# function mlme:api/schedule/count
+# data get storage mlme:output schedule.count
 
 execute store result storage mlme:output schedule.count int 1 run data get storage mlme:schedule jobs

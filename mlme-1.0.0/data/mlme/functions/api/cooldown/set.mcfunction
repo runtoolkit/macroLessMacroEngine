@@ -5,11 +5,11 @@
 # Macro-free. Compatible with Minecraft 1.19.3+.
 #
 # Input:
-#   mlme:cd Ticks -- int, number of ticks for the cooldown (20 = 1 second)
+# mlme:cd Ticks -- int, number of ticks for the cooldown (20 = 1 second)
 #
 # Usage:
-#   data modify storage mlme:cd Ticks set value 100
-#   function mlme:api/cooldown/set
+# data modify storage mlme:cd Ticks set value 100
+# function mlme:api/cooldown/set
 
 execute store result score @s mlme.cd run data get storage mlme:cd Ticks
 data remove storage mlme:cd Ticks

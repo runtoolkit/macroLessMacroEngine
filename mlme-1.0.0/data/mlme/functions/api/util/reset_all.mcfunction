@@ -5,7 +5,7 @@
 # Use with caution -- discards all queued commands, schedules, fibers, etc.
 #
 # Usage:
-#   function mlme:api/util/reset_all
+# function mlme:api/util/reset_all
 
 # Queue
 data remove storage mlme:queue commands
@@ -31,7 +31,8 @@ data remove storage mlme:engine rl_buckets
 data remove storage mlme:engine locks
 
 # Cmd
-data remove storage mlme:cmd
+data remove storage mlme:cmd Command
+data remove storage mlme:cmd Delay
 
 # Cancel active command block
 schedule clear mlme:core/run/reset
